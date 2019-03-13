@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #efefef;
   font-size: 14px;
@@ -7,7 +5,7 @@ body {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   margin: 0 0 10px 0;
   padding: 0;
 }
@@ -27,10 +25,10 @@ header {
   text-align: center;
 }
 
-.logo {
-
+.main-title {
   font-size: 32px;
 }
+
 .text-sub {
   color: #777;
 }
@@ -60,7 +58,7 @@ header {
   text-decoration: none;
 }
 
-.text-title {
+.right-content-title {
   font-size: 24px;
   font-weight: bold;
   margin-top: 0;
@@ -85,20 +83,23 @@ header {
   float: left;
 }
 
-.staff-list-area:after {
+.main-blog-area:after {
   clear: both;
   display: block;
   content: " ";
 }
-.staff-list {
+
+.article-list {
   width: 100%;
   margin-right: 35px;
   float: left;
 }
-.staff-list:last-child {
+
+.article-list:last-child {
   margin-right: 0;
 }
-.staff-image {
+
+.thumbnail {
   margin-bottom: 50px;
   width: 150px;
   height: 150px;
@@ -109,43 +110,42 @@ header {
   text-align: center;
 }
 
-.text-area{
-    float: left;
-    width: 440px;
-    margin-left: 10px;
+.text-area {
+  float: left;
+  width: 440px;
+  margin-left: 10px;
 }
 
-.text-area h2{
+.text-area h2 {
   color: #87CEEB;
 }
 
-.text-title {
+.right-content-title {
   border-bottom: 1px solid #333;
 }
 
-.image {
+.sub-image {
   margin-bottom: 30px;
   width: 50px;
   height: 50px;
   display: block;
 }
 
-.image-area{
-    float: left;
-    width: 220px;
-    margin-left: 10px;
+.sub-content {
+  float: left;
+  width: 220px;
+  margin-left: 10px;
 }
 
-.image-area h4{
+.sub-content h4 {
   color: #87CEEB;
 }
 
-.staff-list-area:after {
+.main-blog-area:after {
   clear: both;
   display: block;
   content: " ";
 }
-
 
 .copyright {
   width: 900px;
