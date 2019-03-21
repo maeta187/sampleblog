@@ -19,7 +19,7 @@ header {
   margin: 0 auto 40px auto;
 }
 
-.header-title-area {
+#header-title-area {
   margin-top: 40px;
   margin-bottom: 30px;
   text-align: center;
@@ -72,13 +72,13 @@ header {
   background-color: #fff;
 }
 
-.left-contents {
+#left-contents {
   width: 600px;
   margin-right: 20px;
   float: left;
 }
 
-.right-contents {
+#right-contents {
   width: 300px;
   float: left;
 }
@@ -103,7 +103,15 @@ header {
   margin-bottom: 50px;
   width: 150px;
   height: 150px;
+  /*align-items: left;*/
+  float: left;
   display: block;
+}
+
+.thumbnail:after {
+  clear: both;
+  display: block;
+  content: " ";
 }
 
 .staff-name {
@@ -128,6 +136,7 @@ header {
   margin-bottom: 30px;
   width: 50px;
   height: 50px;
+  float: left;
   display: block;
 }
 
@@ -147,8 +156,7 @@ header {
   content: " ";
 }
 
-.copyright {
-  width: 900px;
+#copyright {
   margin: 0 auto 40px auto;
   padding: 30px;
   border-top: 1px solid #777;
