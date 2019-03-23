@@ -8,23 +8,21 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
+  <div id="wrapper">
+    <header>
       <div id="header-title-area">
-        <h1 class="main-title">Sample Blog</h1>
+        <h1 id="main-title">Sample Blog</h1>
       </div>
       <ul class="header-navigation">
         <li><a href="#">ホーム</a></li>
         <li><a href="#">カテゴリー一覧</a></li>
         <li><a href="#">お問い合わせ</a></li>
       </ul>
-    </div>
-  </header>
-  <div class="main">
-    <div class="container">
+    </header>
+    <div id="main">
       <div id="left-contents">
-        <div class="main-blog-area">
-          <div class="article-list">
+        <div id="blog-list">
+          <div class="blog-article">
             <img src="image/1234.jpg" class="thumbnail">
             <div class="text-area">
               <p>2019/03/09</p>
@@ -51,9 +49,10 @@
         </div>
       </div>
       <div id="right-contents">
-        <h2 class="right-content-title">新着記事</h2>
-        <div class="main-blog-area">
-          <div class="article-list">
+        <h2 id="latest-title">新着記事</h2>
+        <div id="latest-list">
+          <div class="latest-article">
+
             <img src="image/1234.jpg" class="sub-image">
             <div class="sub-content">
               <h5>2019/03/09</h5>
@@ -91,12 +90,9 @@
         </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <div class="container">
+    <footer>
       <h5 id="copyright">(C) 2019 Tech Stars Academy</h5>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
-
 </html>
